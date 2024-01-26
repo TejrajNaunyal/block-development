@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* style-index.css */
+/* style-index.css */
+.star-rating {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 1;
+}
+
+.star-rating .star {
+	content: '\2605';
+	/* Unicode character for a filled star */
+	color: #101010;
+}
+
+.star-rating .star.empty {
+	content: '\2606';
+	/* Unicode character for an empty star */
+	color: #ccc;
+}
+
+/* Ensure all stars are visible */
+.star-rating .star:nth-child(n) {
+	display: inline-block;
+}
+
+.inspector {
+	margin-bottom: calc(8px);
+	padding-left: 20px;
+}
+
+.range {
+	padding-left: 20px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+.activeColor {
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 1px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 20px;
+}
+
+.activeColorPalette {
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 1px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 20px;
+	
+
+}
