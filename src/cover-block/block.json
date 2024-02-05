@@ -1,0 +1,62 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/cover-block",
+	"version": "0.1.0",
+	"title": "Cover Block",
+	"category": "widgets",
+	"icon": "cover",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+	  "backgroundImage": {
+		"type": "string",
+		"default": ""
+	  },
+	  "overlayColor": {
+		"type": "string",
+		"default": "rgba(0,0,0,0)"
+	  },
+	  "buttonText": {
+		"type": "string",
+		"default": "Read More"
+	  },
+	  "imageWidth": {
+		"type": "number",
+		"default": 50
+	  },
+	  "imageHeight": {
+		"type": "number",
+		"default": 200
+	  },
+	  "imageOpacity": {
+		"type": "number",
+		"default": 0.7
+	  },
+	  "content": {
+		"type": "string",
+		"default": ""
+	  },
+	  "contentFont": {
+		"type": "string",
+		"default": "Arial"
+	  },
+	  "contentColor": {
+		"type": "string",
+		"default": "#ffffff"
+	  },
+	  "contentFontSize": {
+		"type": "number",
+		"default": 16
+	  }
+	},
+	"textdomain": "cover-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+  }
+  

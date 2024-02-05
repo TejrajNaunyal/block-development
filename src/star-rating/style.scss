@@ -1,0 +1,89 @@
+.star-rating {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 1;
+}
+
+.star-rating .star {
+	content: '\2605';
+	/* Unicode character for a filled star */
+	color: #d61515;
+}
+
+.star-rating .star.empty {
+	content: '\2606';
+	/* Unicode character for an empty star */
+	color: #0f0101;
+}
+
+/* Ensure all stars are visible */
+.star-rating .star:nth-child(n) {
+	display: inline-block;
+}
+
+
+
+.range{
+	padding: 30px;
+	margin: 10px;
+	
+
+}
+.inspector {
+	margin-bottom: calc(8px);
+	padding-left: 20px;
+}
+
+.rangeControl {
+	padding-left: 20px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+.activeColor {
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 1px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 20px;
+}
+
+.activeColorPalette {
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 1px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 20px;
+	
+
+}
+.star-rating{
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.section{
+	padding-left: 20px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+.marginControl{
+	padding-left: 30px;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.star-rating {
+	display: flex;
+	font-size: 24px;
+  }
+  
+ 

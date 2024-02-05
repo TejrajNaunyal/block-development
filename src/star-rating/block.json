@@ -1,0 +1,74 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/star-rating",
+	"version": "0.1.0",
+	"title": "Star Rating",
+	"category": "widgets",
+	"icon": "star-filled",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+	  "rating": {
+		"type": "number",
+		"default": 0
+	  },
+	  "activeColor": {
+		"type": "string",
+		"default": "#96960b"
+	  },
+	  "deactiveColor": {
+		"type": "string",
+		"default": "#ABABAB"
+	  },
+	  "padding": {
+		"type": "number",
+		"default": 0
+	  },
+	  "margin": {
+		"type": "number",
+		"default": 0
+	  },
+	  "padding_top": {
+		"type": "number",
+		"default": 0
+	  },
+	  "padding_bottom": {
+		"type": "number",
+		"default": 0
+	  },
+	  "padding_left": {
+		"type": "number",
+		"default": 0
+	  },
+	  "padding_right": {
+		"type": "number",
+		"default": 0
+	  },
+	  "margin_top": {
+		"type": "number",
+		"default": 0
+	  },
+	  "margin_bottom": {
+		"type": "number",
+		"default": 0
+	  },
+	  "margin_left": {
+		"type": "number",
+		"default": 0
+	  },
+	  "margin_right": {
+		"type": "number",
+		"default": 0
+	  }
+	},
+	"textdomain": "star-rating",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+  }
+  

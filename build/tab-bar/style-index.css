@@ -1,0 +1,126 @@
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/tab-bar/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-new {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+/* Add the following styles to your block's stylesheet or use inline styles */
+/* Style for the tab-list container */
+.tab-list {
+  display: flex;
+  border-bottom: 1px solid #ccc; /* Optional: Add a border between tabs and content */
+}
+
+/* Add this CSS in your editor.scss or style.css file */
+.horizontal-tabs {
+  display: flex;
+}
+
+.tab {
+  /* Adjust the styling for individual tabs */
+  padding: 10px;
+  margin-right: 10px; /* Adjust spacing between tabs */
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Add this CSS in your style.scss or equivalent stylesheet */
+.horizontal-tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px; /* Adjust spacing between tabs */
+  background-color: #f0f0f0;
+  cursor: pointer;
+  text-align: center; /* Center the text within the tab */
+}
+
+.tab:last-child {
+  margin-right: 0; /* Remove margin from the last tab to avoid unnecessary space */
+}
+
+/* Add this CSS in your style.scss or equivalent stylesheet */
+.horizontal-tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+.tab.active-tab {
+  background-color: #ccc; /* Add a different background color for the active tab */
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: none;
+}
+
+.content.active-content {
+  display: block;
+}
+
+/* Add this CSS in your style.scss or equivalent stylesheet */
+.horizontal-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tab:last-child {
+  margin-right: 0;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
