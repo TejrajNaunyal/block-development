@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/destination-highlight",
+	"version": "1.0.0",
+	"title": "Destination Highlight",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "A block to highlight destinations with image, title, description, and a link.",
+	"supports": {
+		"html": false
+	},
+	"keywords": [
+		"destination",
+		"highlight",
+		"travel",
+		"tourism"
+	],
+	"attributes": {
+		"contentTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"titleFontSize": {
+			"type": "number",
+			"default": 24
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"titleBgColor": {
+			"type": "string",
+			"default": "transparent"
+		},
+		"titleFontFamily": {
+			"type": "string",
+			"default": "inherit"
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"description": {
+			"type": "string",
+			"default": ""
+		},
+		"descriptionFontSize": {
+			"type": "number",
+			"default": 16
+		},
+		"descriptionColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"descriptionBgColor": {
+			"type": "string",
+			"default": "transparent"
+		},
+		"descriptionFontFamily": {
+			"type": "string",
+			"default": "inherit"
+		},
+		"learnMoreUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageWidth": {
+			"type": "number",
+			"default": 300
+		}
+	},
+	"textdomain": "destination-highlight",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
